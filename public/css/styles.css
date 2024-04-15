@@ -1,0 +1,28 @@
+
+body {
+    background-color: #E8ECEF;
+  }
+  
+  .centered {
+      padding-top: 200px;
+      text-align: center;
+      align-items: center;
+
+  }
+  
+  .secret-text {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+    background-color: #000;
+  }
+
+.container{
+  align-content: center;
+  align-items: center;
+  size: 300px;
+}
+
+.img{
+  size: 200px;
+}

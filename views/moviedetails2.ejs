@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie Details</title>
+    
+    <link rel="stylesheet" href="/css/movie_details_style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="movie-details">
+            <h2>Movie: Bade Miyan Chote Miyan</h2>
+            <div class="movie-info">
+                <img src="/images/movie2.jpg" alt="Bade Miyan Chote Miyan">
+                <p>"Bade Miyan Chote Miyan" is an iconic Bollywood film that has left an indelible mark on Indian cinema. Released in 2024, this action-packed thriller starring Akshay Kumar and Tiger Shroff has captivated audiences with its exhilarating action sequences, charismatic performances, and memorable dialogues. 
+                </p>
+                <p>Release Date: April 10, 2024</p>
+            </div>
+        </div>
+
+        
+        <div class="seat-map">
+            <h3>Seat Map</h3>
+            
+            <div class="screen">Screen</div>
+            
+            
+            <div class="seating-section silver">
+                <h4>Silver-Rs. 150.00</h4>
+                <div class="seat-grid silver-seats"></div>
+            </div>
+            <div class="seating-section gold">
+                <h4>Gold-Rs. 200.00</h4>
+                <div class="seat-grid gold-seats"></div>
+            </div>
+            <div class="seating-section platinum">
+                <h4>Platinum-Rs. 250.00</h4>
+                <div class="seat-grid platinum-seats"></div>
+            </div>
+        </div>
+
+        
+        
+        <div class="selection-section">
+            
+            <div class="timings">
+                
+<div class="timings">
+    <h3>Select Timing</h3>
+    <input type="radio" id="timing1" name="timing" value="10:00 AM">
+    <label for="timing1">10:00 AM</label><br>
+    <input type="radio" id="timing2" name="timing" value="1:00 PM">
+    <label for="timing2">1:00 PM</label><br>
+    <input type="radio" id="timing3" name="timing" value="4:00 PM">
+    <label for="timing3">4:00 PM</label><br>
+</div>
+
+            </div>
+
+            
+            <div class="ticket-selection">
+                <h3>Select Number of Tickets</h3>
+                <input type="number" id="ticket-count" min="1" max="50" value="1">
+            </div>
+        </div>
+
+        
+        <button onclick="confirmBooking()">Confirm Booking</button>
+    </div>
+    
+<div id="purchase-details" style="display: none;">
+    <h3>Purchase Details</h3>
+    <p id="ticket-count-info"></p>
+    <p id="amount-info"></p>
+</div>
+
+
+    
+    <script src="/js/movie_details_script.js"></script>
+</body>
+</html>

@@ -1,0 +1,392 @@
+.movie-details {
+    margin: 20px;
+}
+
+.movie-info {
+    display: flex;
+    align-items: center;
+}
+
+.movie-info img {
+    width: 200px;
+    margin-right: 20px;
+}
+
+
+.seat-map {
+    margin: 20px;
+}
+
+.seat-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.seat-row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.seat {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    background-color: #ccc;
+    border: 1px solid #aaa;
+}
+
+.available {
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #007bff; 
+}
+
+
+.timings {
+    margin: 20px;
+}
+
+
+.ticket-selection {
+    margin: 20px;
+}
+
+.ticket-selection select {
+    padding: 5px;
+    font-size: 16px;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+
+.movie-details {
+    margin-bottom: 30px;
+}
+
+.movie-info {
+    display: flex;
+    align-items: center;
+}
+
+.movie-info img {
+    width: 200px;
+    margin-right: 20px;
+}
+
+
+.seat-map {
+    margin-bottom: 30px;
+}
+
+.seat-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.seat-row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.seat {
+    width: 30px;
+    height: 30px;
+    margin-right: 5px;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+}
+
+.available {
+    cursor: pointer;
+}
+
+.selected {
+    background-color: #007bff;
+}
+
+
+.timings {
+    margin-bottom: 30px;
+}
+
+.timings h3 {
+    color: #333;
+}
+
+.timings label {
+    margin-right: 20px;
+}
+
+
+.ticket-selection {
+    margin-bottom: 30px;
+}
+
+.ticket-selection input {
+    padding: 5px;
+    font-size: 16px;
+}
+
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    font-size: 24px;
+    color: #007bff;
+    margin-bottom: 20px;
+}
+
+h3{
+    text-align: center;
+    font-size: 25px;
+}
+.movie-details {
+    margin-bottom: 30px;
+}
+
+.movie-info {
+    display: flex;
+    align-items: center;
+}
+
+.movie-info img {
+    width: 120px;
+    margin-right: 20px;
+}
+
+.movie-info p {
+    font-size: 16px;
+    margin: 0;
+}
+
+.seat-map {
+    margin-bottom: 30px;
+}
+
+.seat-grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.seat-row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.seat {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.available:hover {
+    background-color: #c0c0c0;
+}
+
+.selected {
+    background-color: #007bff;
+    border-color: #0056b3;
+}
+
+.selection-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.timings, .ticket-selection {
+    width: 48%;
+}
+
+.timings h3, .ticket-selection h3 {
+    font-size: 20px;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.timings label, .ticket-selection input {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+.screen {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+
+
+.seating-section {
+    margin-bottom: 30px;
+}
+
+.silver, .gold, .platinum {
+    border: 2px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.silver h4, .gold h4, .platinum h4 {
+    font-size: 20px;
+    color: #007bff;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
+.seat {
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background-color: #ddd;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.available:hover {
+    background-color: #c0c0c0;
+}
+
+.selected {
+    background-color: #007bff;
+    border-color: #0056b3;
+}
+
+.timings {
+    margin-bottom: 20px;
+}
+
+.timings h3 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 20px;
+    color: #007bff;
+}
+
+.timings input[type="radio"] {
+    display: none;
+}
+
+.timings label {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 8px 12px;
+    background-color: #ddd;
+    color: #333;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.timings label:hover {
+    background-color: #c0c0c0;
+}
+
+.timings input[type="radio"]:checked + label {
+    background-color: #007bff;
+    color: #fff;
+}
+
+#purchase-details {
+    margin-top: 20px;
+}
+
+#purchase-details h3 {
+    margin-top: 0;
+    font-size: 20px;
+    color: #007bff;
+}
+
+#purchase-details p {
+    margin: 5px 0;
+    font-size: 16px;
+}

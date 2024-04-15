@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add Details About Show Time</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f0f0;
+    }
+
+    header, footer {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    .container {
+      margin-top: 70px;
+      max-width: 850px;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 0 30px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #fff;
+      font-size: 24px;
+      margin: 0;
+      padding: 10px 0;
+    }
+
+    .card {
+      border: 2px solid #007bff;
+      border-radius: 20px;
+      background-color: #f9f9f9;
+      padding: 30px;
+      animation: fadeInUp 0.8s ease;
+    }
+
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .form-group {
+      margin-bottom: 30px;
+    }
+
+    label {
+      font-weight: bold;
+      margin-bottom: 10px;
+      font-size: 20px;
+    }
+
+    input[type="text"] {
+      padding: 16px;
+      border: 2px solid #ccc;
+      border-radius: 10px;
+      box-sizing: border-box;
+      transition: border-color 0.3s;
+      font-size: 20px;
+      width: 100%;
+    }
+
+    input[type="text"]:focus {
+      border-color: #007bff;
+    }
+
+    button {
+      background-color: #007bff;
+      color: white;
+      padding: 18px 24px;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+      font-size: 20px;
+      width: 100%;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    footer {
+      background-color: #007bff;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h2>Show Time Details</h2>
+  </header>
+
+
+<div class="container">
+
+<div class="row">
+    <div class="col-sm-8">
+      <div class="card">
+          
+          <form action="/showtimedetail" method="POST">
+            <div class="form-group">
+              <label for="movieid">movie id</label>
+              <input type="text" class="form-control" name="movieid">
+            </div>
+            <div class="form-group">
+              <label for="theaterid">Theater id</label>
+              <input type="text" class="form-control" name="theaterid">
+            </div>
+            <div class="form-group">
+                <label for="showtime">Show time</label>
+                <input type="text" class="form-control" name="showtime">
+            </div>
+            <div class="form-group">
+                <label for="availableseats">Available Seats</label>
+                <input type="text" class="form-control" name="availableseats">
+            </div>
+            <button type="submit" class="btn btn-dark">Submit</button>
+          </form>
+        </div>
+    </div>
+  </div>
+</div>
+
+
+<footer>
+  <p>&copy; 2024 Show Time Details</p>
+</footer>
+</body>
+
+</html>
